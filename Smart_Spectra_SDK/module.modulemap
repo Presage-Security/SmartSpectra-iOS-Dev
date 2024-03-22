@@ -1,0 +1,4 @@
+module PresagePreprocessing {
+    umbrella header "PresagePreprocessing.framework/Headers/PresagePreprocessing.h"
+    export *
+}

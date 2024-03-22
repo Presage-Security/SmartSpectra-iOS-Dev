@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D1989562BAE2D3500BE8EC2 /* PresagePreprocessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1989552BAE2D3500BE8EC2 /* PresagePreprocessing.framework */; };
-		1D1989572BAE2D4400BE8EC2 /* PresagePreprocessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1989552BAE2D3500BE8EC2 /* PresagePreprocessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1D1989582BAE325B00BE8EC2 /* PresagePreprocessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1989552BAE2D3500BE8EC2 /* PresagePreprocessing.framework */; };
+		1D1989592BAE327500BE8EC2 /* PresagePreprocessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1989552BAE2D3500BE8EC2 /* PresagePreprocessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		689B13812A9F8FFE00847995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13802A9F8FFE00847995 /* AppDelegate.swift */; };
 		689B13832A9F8FFE00847995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13822A9F8FFE00847995 /* SceneDelegate.swift */; };
 		689B13882A9F8FFE00847995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689B13862A9F8FFE00847995 /* Main.storyboard */; };
@@ -69,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1D1989572BAE2D4400BE8EC2 /* PresagePreprocessing.framework in Embed Frameworks */,
+				1D1989592BAE327500BE8EC2 /* PresagePreprocessing.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1989562BAE2D3500BE8EC2 /* PresagePreprocessing.framework in Frameworks */,
+				1D1989582BAE325B00BE8EC2 /* PresagePreprocessing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,8 @@
 
 import Foundation
 import UIKit
-import PresagePreprocessing
+//rick again
+//import PresagePreprocessing
 
 extension ViewController.Screening.Root: PresagePreprocessingDelegate {
     private func imageFromSampleBuffer(_ pixelBuffer: CVPixelBuffer) -> CGImage? {

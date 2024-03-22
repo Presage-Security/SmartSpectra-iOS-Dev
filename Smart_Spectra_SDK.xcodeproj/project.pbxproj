@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		131B24912B756F1200C1E3F4 /* PresagePreprocessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131B24902B756F1200C1E3F4 /* PresagePreprocessing.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		131B24922B756F2500C1E3F4 /* PresagePreprocessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 131B24902B756F1200C1E3F4 /* PresagePreprocessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		689B13812A9F8FFE00847995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13802A9F8FFE00847995 /* AppDelegate.swift */; };
 		689B13832A9F8FFE00847995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13822A9F8FFE00847995 /* SceneDelegate.swift */; };
 		689B13882A9F8FFE00847995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689B13862A9F8FFE00847995 /* Main.storyboard */; };
@@ -69,7 +67,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				131B24922B756F2500C1E3F4 /* PresagePreprocessing.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,7 +74,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		131B24902B756F1200C1E3F4 /* PresagePreprocessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PresagePreprocessing.framework; sourceTree = "<group>"; };
 		689B137D2A9F8FFE00847995 /* Smart_Spectra_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Spectra_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		689B13802A9F8FFE00847995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		689B13822A9F8FFE00847995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,7 +138,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131B24912B756F1200C1E3F4 /* PresagePreprocessing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +166,6 @@
 		689B137F2A9F8FFE00847995 /* Smart_Spectra_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				131B24902B756F1200C1E3F4 /* PresagePreprocessing.framework */,
 				68E393192AA19FE8001800A8 /* Sources */,
 				689B13802A9F8FFE00847995 /* AppDelegate.swift */,
 				689B13822A9F8FFE00847995 /* SceneDelegate.swift */,
@@ -776,6 +770,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Smart_Spectra_SDK",
+					"$(PROJECT_DIR)/ExternalFrameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Smart_Spectra_SDK/Info.plist;
@@ -814,6 +809,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Smart_Spectra_SDK",
+					"$(PROJECT_DIR)/ExternalFrameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Smart_Spectra_SDK/Info.plist;

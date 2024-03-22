@@ -10,8 +10,7 @@ import UIKit
 import AVFoundation
 import AVFoundation
 import UIKit
-//was failing so just trying to disable - Rick
-//import PresagePreprocessing
+import PresagePreprocessing
 
 enum state {
     case disable, ready, running

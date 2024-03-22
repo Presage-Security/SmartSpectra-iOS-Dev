@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
  
   s.module_name  = "Smart_Spectra_SDK"
  
-  s.vendored_frameworks = 'Smart_Spectra_SDK/PresagePreprocessing.framework'
+  s.vendored_frameworks = 'ExternalFrameworks/PresagePreprocessing.framework'
   s.swift_version = '5.0'
 end

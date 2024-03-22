@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		131B24912B756F1200C1E3F4 /* PresagePreprocessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131B24902B756F1200C1E3F4 /* PresagePreprocessing.framework */; };
+		131B24912B756F1200C1E3F4 /* PresagePreprocessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131B24902B756F1200C1E3F4 /* PresagePreprocessing.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		131B24922B756F2500C1E3F4 /* PresagePreprocessing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 131B24902B756F1200C1E3F4 /* PresagePreprocessing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		689B13812A9F8FFE00847995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13802A9F8FFE00847995 /* AppDelegate.swift */; };
 		689B13832A9F8FFE00847995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13822A9F8FFE00847995 /* SceneDelegate.swift */; };
@@ -772,7 +772,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7ZV9T28PTR;
+				DEVELOPMENT_TEAM = 54D6QF28QA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Smart_Spectra_SDK",
@@ -810,7 +810,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7ZV9T28PTR;
+				DEVELOPMENT_TEAM = 54D6QF28QA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Smart_Spectra_SDK",

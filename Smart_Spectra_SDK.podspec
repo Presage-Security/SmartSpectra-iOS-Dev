@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Smart_Spectra_SDK"
-  s.version      = "0.0.3"
+  s.version      = "0.0.2"
   s.summary      = "Smart Spectra SDK"
   s.description  = "Smart Spectra SDK is the SDK that help you to check HH and RR"
   s.homepage     = "https://presagetechnologies.com/"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Presage Technologies" => "support@presagetech.com" }
   s.platform     = :ios, "13.0"
   s.source       = { 
-    :git => "git@github.com:Presage-Security/SmartSpectra-iOS-Dev-Internal.git", 
+    :git => "https://github.com/Presage-Security/SmartSpectra-iOS-Dev.git", 
     :tag => "#{s.name}-#{s.version.to_s}" 
   }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }

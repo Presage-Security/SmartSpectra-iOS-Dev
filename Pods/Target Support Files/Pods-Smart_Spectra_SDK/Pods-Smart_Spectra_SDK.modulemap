@@ -1,6 +1,0 @@
-module Pods_Smart_Spectra_SDK {
-  umbrella header "Pods-Smart_Spectra_SDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 @available(iOS 13.0, *)
 extension ViewController.Processing.Root: ProcessingDelegate {
     func updateProgress(_ progress: Float) {

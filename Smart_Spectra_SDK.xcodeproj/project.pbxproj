@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1989612BB6059D00BE8EC2 /* PresagePreprocessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D19895A2BB5F8B500BE8EC2 /* PresagePreprocessing.framework */; };
 		689B13812A9F8FFE00847995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13802A9F8FFE00847995 /* AppDelegate.swift */; };
 		689B13832A9F8FFE00847995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B13822A9F8FFE00847995 /* SceneDelegate.swift */; };
 		689B13882A9F8FFE00847995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689B13862A9F8FFE00847995 /* Main.storyboard */; };
@@ -58,24 +59,11 @@
 		68E393272AA1A0AD001800A8 /* SmartSpectraMethodsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E393202AA1A0AD001800A8 /* SmartSpectraMethodsInternal.swift */; };
 		68E393282AA1A0AD001800A8 /* SmartSpectraButtonCheckup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E393212AA1A0AD001800A8 /* SmartSpectraButtonCheckup.swift */; };
 		68E3932A2AA1A44D001800A8 /* ViewController.Screening.Root+PresageDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E393292AA1A44D001800A8 /* ViewController.Screening.Root+PresageDelegate.swift */; };
-		8B6724380CD98103096159AB /* libPods-Smart_Spectra_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C474CD3826EFFAB6D2118D6 /* libPods-Smart_Spectra_SDK.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		689B13BA2A9F94D900847995 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1C474CD3826EFFAB6D2118D6 /* libPods-Smart_Spectra_SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Smart_Spectra_SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D19895A2BB5F8B500BE8EC2 /* PresagePreprocessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PresagePreprocessing.framework; path = ../PresagePreprocessing.framework; sourceTree = "<group>"; };
 		689B137D2A9F8FFE00847995 /* Smart_Spectra_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Spectra_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		689B13802A9F8FFE00847995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		689B13822A9F8FFE00847995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B6724380CD98103096159AB /* libPods-Smart_Spectra_SDK.a in Frameworks */,
+				1D1989612BB6059D00BE8EC2 /* PresagePreprocessing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +169,7 @@
 		689B137F2A9F8FFE00847995 /* Smart_Spectra_SDK */ = {
 			isa = PBXGroup;
 			children = (
+				1D19895A2BB5F8B500BE8EC2 /* PresagePreprocessing.framework */,
 				68E393192AA19FE8001800A8 /* Sources */,
 				689B13802A9F8FFE00847995 /* AppDelegate.swift */,
 				689B13822A9F8FFE00847995 /* SceneDelegate.swift */,
@@ -530,7 +519,6 @@
 				689B13792A9F8FFE00847995 /* Sources */,
 				689B137A2A9F8FFE00847995 /* Frameworks */,
 				689B137B2A9F8FFE00847995 /* Resources */,
-				689B13BA2A9F94D900847995 /* Embed Frameworks */,
 				D53EF47B13609BF2CC68BB82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -765,7 +753,6 @@
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "Smart_Spectra_SDK/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -820,7 +807,6 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OBJC_BRIDGING_HEADER = "Smart_Spectra_SDK/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -839,7 +825,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Smart_Spectra_SDK",
-					"$(PROJECT_DIR)/ExternalFrameworks",
+					"$(PROJECT_DIR)/Pods/PresagePreprocessing",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Smart_Spectra_SDK/Info.plist;
@@ -860,7 +847,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Smart_Spectra_SDK/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -879,7 +866,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Smart_Spectra_SDK",
-					"$(PROJECT_DIR)/ExternalFrameworks",
+					"$(PROJECT_DIR)/Pods/PresagePreprocessing",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Smart_Spectra_SDK/Info.plist;
@@ -900,7 +888,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Smart_Spectra_SDK/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

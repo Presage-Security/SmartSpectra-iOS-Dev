@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Smart_Spectra_SDK"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "Smart Spectra SDK"
   s.description  = "Smart Spectra SDK is the SDK that help you to check HH and RR"
   s.homepage     = "https://presagetechnologies.com/"
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
  
   s.module_name  = "Smart_Spectra_SDK"
  
-  s.dependency 'PresagePreprocessing', '0.0.1'
+  s.vendored_frameworks = 'Smart_Spectra_SDK/PresagePreprocessing.framework'
   s.swift_version = '5.0'
 end

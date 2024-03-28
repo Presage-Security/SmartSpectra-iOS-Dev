@@ -1,0 +1,16 @@
+PODS:
+  - PresagePreprocessing (0.0.1)
+
+DEPENDENCIES:
+  - PresagePreprocessing
+
+SPEC REPOS:
+  trunk:
+    - PresagePreprocessing
+
+SPEC CHECKSUMS:
+  PresagePreprocessing: b2fe8fdf9a8a66a78b53ee1b3cfb2c622effef2b
+
+PODFILE CHECKSUM: d543b6145f6ec1e689d199c1b497ffca200793e8
+
+COCOAPODS: 1.15.2

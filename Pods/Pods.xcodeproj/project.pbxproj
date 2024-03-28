@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6D3D74FD77128792B3B0AB45EF70EE27 /* PresagePreprocessing */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F42F11A1648CB9E9F245828D1E3C4453 /* Build configuration list for PBXAggregateTarget "PresagePreprocessing" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = PresagePreprocessing;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1C63D5EA2489B8D4B75DDB90948BBCAC /* Pods-Smart_Spectra_SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F78BBCDD77A84358B3581D656E640 /* Pods-Smart_Spectra_SDK-dummy.m */; };
+		DB5459A387223C03BDE411D3E1F843C9 /* Pods-Smart_Spectra_SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BA368207904058004A0129B3988558 /* Pods-Smart_Spectra_SDK-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1F31E8C8F9B34D079B0C939F6902CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3D74FD77128792B3B0AB45EF70EE27;
+			remoteInfo = PresagePreprocessing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC6AE21E59F6B05E593E72929649029 /* Pods-Smart_Spectra_SDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Smart_Spectra_SDK-frameworks.sh"; sourceTree = "<group>"; };
+		0F595607FC25C56F934144EC0D0776CA /* PresagePreprocessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PresagePreprocessing.debug.xcconfig; sourceTree = "<group>"; };
+		60BA368207904058004A0129B3988558 /* Pods-Smart_Spectra_SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Smart_Spectra_SDK-umbrella.h"; sourceTree = "<group>"; };
+		6CC2FFEFCBB7956FABCED0BD8FA3D083 /* Pods-Smart_Spectra_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smart_Spectra_SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		787C10AE54EDA8DDC7C2EE65F85A92F6 /* Pods-Smart_Spectra_SDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Smart_Spectra_SDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C16095A0609DEB725BA5591C27E4AD /* PresagePreprocessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PresagePreprocessing.release.xcconfig; sourceTree = "<group>"; };
+		AA5F78BBCDD77A84358B3581D656E640 /* Pods-Smart_Spectra_SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Smart_Spectra_SDK-dummy.m"; sourceTree = "<group>"; };
+		AEDE10330E6B4B3B4B1117126DF60038 /* Pods-Smart_Spectra_SDK */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Smart_Spectra_SDK"; path = "libPods-Smart_Spectra_SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23571934D38C537CB4012757B40AD75 /* PresagePreprocessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PresagePreprocessing.framework; sourceTree = "<group>"; };
+		B57BE955EB67B828570DAE9D547398A3 /* Pods-Smart_Spectra_SDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Smart_Spectra_SDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6AAD1A2BB99BA0574BAA5AA3D2DFB7D /* Pods-Smart_Spectra_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Smart_Spectra_SDK.release.xcconfig"; sourceTree = "<group>"; };
+		C997F75B2CCE1FD6A1D4F73AE9155015 /* Pods-Smart_Spectra_SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Smart_Spectra_SDK.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107C266B9C7566C0C0933F924D72F201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670D0546D75F81E5C01B56B1FF39AC6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2AB3E72B2BDF63AAAB38183BA447F /* PresagePreprocessing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7568AAFDF10852B1D60BDD082D9F61CA /* Pods-Smart_Spectra_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C997F75B2CCE1FD6A1D4F73AE9155015 /* Pods-Smart_Spectra_SDK.modulemap */,
+				B57BE955EB67B828570DAE9D547398A3 /* Pods-Smart_Spectra_SDK-acknowledgements.markdown */,
+				787C10AE54EDA8DDC7C2EE65F85A92F6 /* Pods-Smart_Spectra_SDK-acknowledgements.plist */,
+				AA5F78BBCDD77A84358B3581D656E640 /* Pods-Smart_Spectra_SDK-dummy.m */,
+				0CC6AE21E59F6B05E593E72929649029 /* Pods-Smart_Spectra_SDK-frameworks.sh */,
+				60BA368207904058004A0129B3988558 /* Pods-Smart_Spectra_SDK-umbrella.h */,
+				6CC2FFEFCBB7956FABCED0BD8FA3D083 /* Pods-Smart_Spectra_SDK.debug.xcconfig */,
+				C6AAD1A2BB99BA0574BAA5AA3D2DFB7D /* Pods-Smart_Spectra_SDK.release.xcconfig */,
+			);
+			name = "Pods-Smart_Spectra_SDK";
+			path = "Target Support Files/Pods-Smart_Spectra_SDK";
+			sourceTree = "<group>";
+		};
+		75D23B304466D0E92675B5E05321D37F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEDE10330E6B4B3B4B1117126DF60038 /* Pods-Smart_Spectra_SDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		780542414EFC6E2CBCD158B2F4897CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23571934D38C537CB4012757B40AD75 /* PresagePreprocessing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				670D0546D75F81E5C01B56B1FF39AC6A /* Pods */,
+				75D23B304466D0E92675B5E05321D37F /* Products */,
+				F486EAC044BBBC11394712001022E3AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E2AB3E72B2BDF63AAAB38183BA447F /* PresagePreprocessing */ = {
+			isa = PBXGroup;
+			children = (
+				780542414EFC6E2CBCD158B2F4897CF0 /* Frameworks */,
+				DA412B1BC27B5963BE4BBE7D45996C47 /* Support Files */,
+			);
+			name = PresagePreprocessing;
+			path = PresagePreprocessing;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA412B1BC27B5963BE4BBE7D45996C47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F595607FC25C56F934144EC0D0776CA /* PresagePreprocessing.debug.xcconfig */,
+				A5C16095A0609DEB725BA5591C27E4AD /* PresagePreprocessing.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PresagePreprocessing";
+			sourceTree = "<group>";
+		};
+		F486EAC044BBBC11394712001022E3AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7568AAFDF10852B1D60BDD082D9F61CA /* Pods-Smart_Spectra_SDK */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D7CA9E7F2497E39ADC998ADBDAD6C130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5459A387223C03BDE411D3E1F843C9 /* Pods-Smart_Spectra_SDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16C0234E82BC29FDD943FE2A1F24722B /* Pods-Smart_Spectra_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE84BC58390FC724AE7F95AC403FEAD /* Build configuration list for PBXNativeTarget "Pods-Smart_Spectra_SDK" */;
+			buildPhases = (
+				D7CA9E7F2497E39ADC998ADBDAD6C130 /* Headers */,
+				EA3E02A12714B72A07FECD633B0F3767 /* Sources */,
+				107C266B9C7566C0C0933F924D72F201 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B90945CC5016CFB7D6D31215C9B121 /* PBXTargetDependency */,
+			);
+			name = "Pods-Smart_Spectra_SDK";
+			productName = "Pods-Smart_Spectra_SDK";
+			productReference = AEDE10330E6B4B3B4B1117126DF60038 /* Pods-Smart_Spectra_SDK */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 75D23B304466D0E92675B5E05321D37F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C0234E82BC29FDD943FE2A1F24722B /* Pods-Smart_Spectra_SDK */,
+				6D3D74FD77128792B3B0AB45EF70EE27 /* PresagePreprocessing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3E02A12714B72A07FECD633B0F3767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C63D5EA2489B8D4B75DDB90948BBCAC /* Pods-Smart_Spectra_SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B90945CC5016CFB7D6D31215C9B121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PresagePreprocessing;
+			target = 6D3D74FD77128792B3B0AB45EF70EE27 /* PresagePreprocessing */;
+			targetProxy = F1F31E8C8F9B34D079B0C939F6902CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3192F44990CDEBFCC0EA89A8C2C57515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AAD1A2BB99BA0574BAA5AA3D2DFB7D /* Pods-Smart_Spectra_SDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smart_Spectra_SDK/Pods-Smart_Spectra_SDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6335050A98570FBF03E703C04483A2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC2FFEFCBB7956FABCED0BD8FA3D083 /* Pods-Smart_Spectra_SDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Smart_Spectra_SDK/Pods-Smart_Spectra_SDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819620582E324DF8F29DBE6F6117E243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F595607FC25C56F934144EC0D0776CA /* PresagePreprocessing.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF01F19347FB749F2B0D2FAA837A2C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C16095A0609DEB725BA5591C27E4AD /* PresagePreprocessing.release.xcconfig */;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE84BC58390FC724AE7F95AC403FEAD /* Build configuration list for PBXNativeTarget "Pods-Smart_Spectra_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6335050A98570FBF03E703C04483A2DE /* Debug */,
+				3192F44990CDEBFCC0EA89A8C2C57515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F11A1648CB9E9F245828D1E3C4453 /* Build configuration list for PBXAggregateTarget "PresagePreprocessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819620582E324DF8F29DBE6F6117E243 /* Debug */,
+				CF01F19347FB749F2B0D2FAA837A2C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

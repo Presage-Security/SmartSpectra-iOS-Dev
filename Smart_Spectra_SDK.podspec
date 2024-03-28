@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Smart_Spectra_SDK"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "Smart Spectra SDK"
   s.description  = "Smart Spectra SDK is the SDK that help you to check HH and RR"
   s.homepage     = "https://presagetechnologies.com/"
@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.source       = { 
     :git => "https://github.com/Presage-Security/SmartSpectra-iOS-Dev.git", 
-    :tag => "#{s.name}-#{s.version.to_s}" 
+    :tag => "#{s.name}-#{s.version}" 
   }
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  s.pod_target_xcconfig = { 'ARCHS[sdk=iphoneos*]' => 'arm64' }
   s.source_files = "Smart_Spectra_SDK/**/*.swift"
  
   s.module_name  = "Smart_Spectra_SDK"
  
-  s.vendored_frameworks = 'ExternalFrameworks/PresagePreprocessing.framework'
+  s.dependency 'PresagePreprocessing', '0.0.1'
   s.swift_version = '5.0'
 end
